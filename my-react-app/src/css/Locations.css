@@ -1,0 +1,31 @@
+/* Locations.css */
+
+/* Style for the custom dropdown container */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown select element */
+.styled-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Style for the custom dropdown arrow */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 18px;
+  color: #555;
+}

@@ -1,0 +1,40 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Features from './components/Features';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import About from './components/About'; // Import the About component
+import Locations from './components/Locations'; // Import the Locations component
+
+
+
+const MainContent = () => {
+  return (
+    <div>
+      <Banner />
+      <Features />
+      <Main />
+    </div>
+  );
+};
+
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <Header />
+        <Switch>
+            <Route exact path="/" component={MainContent} />
+            <Route path="/about" component={About} />
+            <Route path="/locations" component={Locations} />
+          </Switch>
+        <Footer />
+      </div>
+    </Router>
+  );
+};
+
+export default App;
