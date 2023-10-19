@@ -10,9 +10,9 @@ const Banner = () => {
       </div> */}
 
 
-      <div id = "banner">
-        <p>SubLettuce</p>
-      </div>
+      {/* <div id = "banner"> */}
+        {/* <p>SubLettuce</p> */}
+      {/* </div> */}
 
       <div id="banner" className="box container">
         <div className="row">

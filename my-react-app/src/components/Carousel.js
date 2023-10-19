@@ -22,7 +22,7 @@ const features = [
     {
         id: 1,
         pic: pic01,
-        address: "1234 Goon Street, Los Angeles, CA 90001, USA ",
+        address: "1234 First Street, Los Angeles, CA 90001, USA ",
         price: "$1,000/mo",
         description: "Charming bungalow with vintage appeal, nestled in a quiet neighborhood. Cozy and comfortable living awaits."
     },
