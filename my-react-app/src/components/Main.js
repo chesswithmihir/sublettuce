@@ -28,6 +28,7 @@ const Main = () => {
                 </div>
                 <a href="#" className="button icon fa-file-alt">More</a>
               </section> */}
+
             </div>
           </div>
           <div className="col-8 col-12-medium imp-medium">

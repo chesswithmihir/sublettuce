@@ -1,8 +1,10 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import Features from './components/Features';
+import Carousel from './components/Carousel';
+
 import Main from './components/Main';
 import Footer from './components/Footer';
 import About from './components/About'; // Import the About component
@@ -14,7 +16,8 @@ const MainContent = () => {
   return (
     <div>
       <Banner />
-      <Features />
+      {/* <Sliders /> */}
+      <Carousel />
       <Main />
     </div>
   );

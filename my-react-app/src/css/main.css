@@ -91,7 +91,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #f7f7f7;
+		background-color: #add1b2;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
@@ -1908,7 +1908,8 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		padding: 1em 0 1em 0;
+		/* Original: padding: 4.5em 0 3em 0; */
 	}
 
 	#features-wrapper {
@@ -1916,7 +1917,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: rgb(240, 240, 240);
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 5em 0 5em 0;
 	}
@@ -1925,6 +1926,12 @@ input, select, textarea {
 		padding: 6em 0 8em 0;
 	}
 
+	#carousel-wrapper{
+		background-image: linear-gradient(white,rgb(240, 240, 240));
+		margin-top: 30px;
+		padding-top: 10px;
+		border-radius: 100px 100px 0 0;
+	}
 /* Header */
 
 	#header {
