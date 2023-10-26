@@ -9,16 +9,25 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import About from './components/About'; // Import the About component
 import Locations from './components/Locations'; // Import the Locations component
+import Landing from './components/Landing'; // Import the Locations component
 
 
 
 const MainContent = () => {
   return (
     <div>
+      <Header />
       <Banner />
-      {/* <Sliders /> */}
       <Carousel />
       <Main />
+    </div>
+  );
+};
+
+const LandingPage = () => {
+  return (
+    <div>
+      <Landing />
     </div>
   );
 };
@@ -28,9 +37,9 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Header />
         <Switch>
-            <Route exact path="/" component={MainContent} />
+            <Route exact path="/" component={LandingPage} />
+            <Route exact path="/main" component={MainContent} />
             <Route path="/about" component={About} />
             <Route path="/locations" component={Locations} />
           </Switch>

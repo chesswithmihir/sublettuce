@@ -1,0 +1,15 @@
+div {
+    outline: 1px black solid;
+}
+body {
+    background-color: #F9F7EA;
+}
+#a {
+    color: #18694F;
+    font-size: 100px;
+}
+/* FFEBD2 */
+
+.imp-medium{
+    outline: 2px red solid;
+}
